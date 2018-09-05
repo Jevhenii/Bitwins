@@ -1,0 +1,12 @@
+@import "mixins";
+@import "variables";
+@import "normalize";
+
+body {
+    font-weight: $font-light;
+    font-family: $main-font;
+    line-height: 1.86;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
