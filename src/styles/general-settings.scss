@@ -1,0 +1,661 @@
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor,
+.wp-caption {
+  max-width: 100%;
+}
+
+img.aligncenter {
+  margin-left: auto;
+  margin-right: auto !important;
+  display: block;
+  clear: both;
+  margin-top: 5px;
+  width: auto !important;
+}
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+}
+
+img.alignleft {
+  margin: 0 40px 20px 0;
+  float: left;
+  width: auto !important;
+}
+
+.alignleft {
+  margin: 5px 10px 20px 0;
+  float: left;
+}
+
+img.alignright {
+  margin: 5px 0 20px 20px;
+  float: right;
+  width: auto !important;
+}
+
+.sticky .post {
+  padding: 20px;
+  background: #eee;
+}
+
+#main_content .sticky .post h2 {
+  font-weight: bold;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+pre,
+img {
+  max-width: 100%;
+}
+
+.padd-120 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.none-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.textwidget img {
+  height: auto;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn-default {
+  color: inherit;
+}
+
+.widget-service p {
+  margin-bottom: 0;
+}
+
+.widget_calendar table,
+.widget select {
+  width: 100%;
+}
+
+.widget select {
+  padding: 3px 5px;
+}
+
+.widget_calendar table td,
+.widget_calendar table th {
+  padding: 9px 6px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.recentcomments > a {
+  font-style: italic;
+}
+
+.attachment-post-thumbnail {
+  height: auto;
+}
+
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget ul ul {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.widget_nav_menu ul {
+  padding-left: 0;
+  text-align: left;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+section.vc_row {
+  margin: 0;
+}
+
+.post-password-form input[type="submit"] {
+  padding: 3px 20px;
+  background: #333;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.post-password-form input[type="submit"]:hover {
+  background: #ff7400;
+}
+
+body.theme-light,
+body .section-light,
+body .section-light-alt,
+body .section-light-alt {
+  color: #28384c;
+  background: #fff;
+}
+
+body.io-azure {
+  background: #0d42b2;
+}
+
+body.io-azure .section-pro,
+body.io-azure .section-pro-alt {
+  color: #313c56;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+table {
+  margin: 0 0 18px;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+table:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1.33;
+  font-weight: 600;
+  color: #373e45;
+}
+
+h1.color-secondary,
+h2.color-secondary,
+h3.color-secondary,
+h4.color-secondary,
+h5.color-secondary,
+h6.color-secondary,
+.h1.color-secondary,
+.h2.color-secondary,
+.h3.color-secondary,
+.h4.color-secondary,
+.h5.color-secondary,
+.h6.color-secondary {
+  color: #16a3fe;
+}
+
+h1.color-primary,
+h2.color-primary,
+h3.color-primary,
+h4.color-primary,
+h5.color-primary,
+h6.color-primary,
+.h1.color-primary,
+.h2.color-primary,
+.h3.color-primary,
+.h4.color-primary,
+.h5.color-primary,
+.h6.color-primary {
+  color: #41faa4;
+}
+
+h1 + .image:not([class*="mt-"]),
+h2 + .image:not([class*="mt-"]),
+h3 + .image:not([class*="mt-"]),
+h4 + .image:not([class*="mt-"]),
+h5 + .image:not([class*="mt-"]),
+h6 + .image:not([class*="mt-"]),
+.h1 + .image:not([class*="mt-"]),
+.h2 + .image:not([class*="mt-"]),
+.h3 + .image:not([class*="mt-"]),
+.h4 + .image:not([class*="mt-"]),
+.h5 + .image:not([class*="mt-"]),
+.h6 + .image:not([class*="mt-"]) {
+  margin-top: 20px;
+}
+
+.theme-light h1,
+.theme-light h2,
+.theme-light h3,
+.theme-light h4,
+.theme-light h5,
+.theme-light h6,
+.theme-light .h1,
+.theme-light .h2,
+.theme-light .h3,
+.theme-light .h4,
+.theme-light .h5,
+.theme-light .h6,
+.section-light h1,
+.section-light h2,
+.section-light h3,
+.section-light h4,
+.section-light h5,
+.section-light h6,
+.section-light .h1,
+.section-light .h2,
+.section-light .h3,
+.section-light .h4,
+.section-light .h5,
+.section-light .h6,
+.section-light-alt h1,
+.section-light-alt h2,
+.section-light-alt h3,
+.section-light-alt h4,
+.section-light-alt h5,
+.section-light-alt h6,
+.section-light-alt .h1,
+.section-light-alt .h2,
+.section-light-alt .h3,
+.section-light-alt .h4,
+.section-light-alt .h5,
+.section-light-alt .h6 {
+  line-height: 1.33;
+  font-weight: 500;
+  color: #28384c;
+}
+
+.theme-light h1.color-secondary,
+.theme-light h2.color-secondary,
+.theme-light h3.color-secondary,
+.theme-light h4.color-secondary,
+.theme-light h5.color-secondary,
+.theme-light h6.color-secondary,
+.theme-light .h1.color-secondary,
+.theme-light .h2.color-secondary,
+.theme-light .h3.color-secondary,
+.theme-light .h4.color-secondary,
+.theme-light .h5.color-secondary,
+.theme-light .h6.color-secondary,
+.section-light h1.color-secondary,
+.section-light h2.color-secondary,
+.section-light h3.color-secondary,
+.section-light h4.color-secondary,
+.section-light h5.color-secondary,
+.section-light h6.color-secondary,
+.section-light .h1.color-secondary,
+.section-light .h2.color-secondary,
+.section-light .h3.color-secondary,
+.section-light .h4.color-secondary,
+.section-light .h5.color-secondary,
+.section-light .h6.color-secondary,
+.section-light-alt h1.color-secondary,
+.section-light-alt h2.color-secondary,
+.section-light-alt h3.color-secondary,
+.section-light-alt h4.color-secondary,
+.section-light-alt h5.color-secondary,
+.section-light-alt h6.color-secondary,
+.section-light-alt .h1.color-secondary,
+.section-light-alt .h2.color-secondary,
+.section-light-alt .h3.color-secondary,
+.section-light-alt .h4.color-secondary,
+.section-light-alt .h5.color-secondary,
+.section-light-alt .h6.color-secondary {
+  color: #16a3fe;
+}
+
+.theme-light h1.color-primary,
+.theme-light h2.color-primary,
+.theme-light h3.color-primary,
+.theme-light h4.color-primary,
+.theme-light h5.color-primary,
+.theme-light h6.color-primary,
+.theme-light .h1.color-primary,
+.theme-light .h2.color-primary,
+.theme-light .h3.color-primary,
+.theme-light .h4.color-primary,
+.theme-light .h5.color-primary,
+.theme-light .h6.color-primary,
+.section-light h1.color-primary,
+.section-light h2.color-primary,
+.section-light h3.color-primary,
+.section-light h4.color-primary,
+.section-light h5.color-primary,
+.section-light h6.color-primary,
+.section-light .h1.color-primary,
+.section-light .h2.color-primary,
+.section-light .h3.color-primary,
+.section-light .h4.color-primary,
+.section-light .h5.color-primary,
+.section-light .h6.color-primary,
+.section-light-alt h1.color-primary,
+.section-light-alt h2.color-primary,
+.section-light-alt h3.color-primary,
+.section-light-alt h4.color-primary,
+.section-light-alt h5.color-primary,
+.section-light-alt h6.color-primary,
+.section-light-alt .h1.color-primary,
+.section-light-alt .h2.color-primary,
+.section-light-alt .h3.color-primary,
+.section-light-alt .h4.color-primary,
+.section-light-alt .h5.color-primary,
+.section-light-alt .h6.color-primary {
+  color: #41faa4;
+}
+
+.theme-light h1 + .image:not([class*="mt-"]),
+.theme-light h2 + .image:not([class*="mt-"]),
+.theme-light h3 + .image:not([class*="mt-"]),
+.theme-light h4 + .image:not([class*="mt-"]),
+.theme-light h5 + .image:not([class*="mt-"]),
+.theme-light h6 + .image:not([class*="mt-"]),
+.theme-light .h1 + .image:not([class*="mt-"]),
+.theme-light .h2 + .image:not([class*="mt-"]),
+.theme-light .h3 + .image:not([class*="mt-"]),
+.theme-light .h4 + .image:not([class*="mt-"]),
+.theme-light .h5 + .image:not([class*="mt-"]),
+.theme-light .h6 + .image:not([class*="mt-"]),
+.section-light h1 + .image:not([class*="mt-"]),
+.section-light h2 + .image:not([class*="mt-"]),
+.section-light h3 + .image:not([class*="mt-"]),
+.section-light h4 + .image:not([class*="mt-"]),
+.section-light h5 + .image:not([class*="mt-"]),
+.section-light h6 + .image:not([class*="mt-"]),
+.section-light .h1 + .image:not([class*="mt-"]),
+.section-light .h2 + .image:not([class*="mt-"]),
+.section-light .h3 + .image:not([class*="mt-"]),
+.section-light .h4 + .image:not([class*="mt-"]),
+.section-light .h5 + .image:not([class*="mt-"]),
+.section-light .h6 + .image:not([class*="mt-"]),
+.section-light-alt h1 + .image:not([class*="mt-"]),
+.section-light-alt h2 + .image:not([class*="mt-"]),
+.section-light-alt h3 + .image:not([class*="mt-"]),
+.section-light-alt h4 + .image:not([class*="mt-"]),
+.section-light-alt h5 + .image:not([class*="mt-"]),
+.section-light-alt h6 + .image:not([class*="mt-"]),
+.section-light-alt .h1 + .image:not([class*="mt-"]),
+.section-light-alt .h2 + .image:not([class*="mt-"]),
+.section-light-alt .h3 + .image:not([class*="mt-"]),
+.section-light-alt .h4 + .image:not([class*="mt-"]),
+.section-light-alt .h5 + .image:not([class*="mt-"]),
+.section-light-alt .h6 + .image:not([class*="mt-"]) {
+  margin-top: 20px;
+}
+
+.io-azure .section-pro h1,
+.io-azure .section-pro h2,
+.io-azure .section-pro h3,
+.io-azure .section-pro h4,
+.io-azure .section-pro h5,
+.io-azure .section-pro h6,
+.io-azure .section-pro blockquote,
+.io-azure .section-pro-alt h1,
+.io-azure .section-pro-alt h2,
+.io-azure .section-pro-alt h3,
+.io-azure .section-pro-alt h4,
+.io-azure .section-pro-alt h5,
+.io-azure .section-pro-alt h6,
+.io-azure .section-pro-alt blockquote {
+  color: #1641b5;
+}
+
+h1,
+.h1 {
+  font-size: 2.93em;
+}
+
+h2,
+.h2 {
+  font-size: 2.3em;
+}
+
+h3,
+.h3 {
+  font-size: 1.87em;
+}
+
+h4,
+.h4 {
+  font-size: 1.6em;
+}
+
+h5,
+.h5 {
+  font-size: 1.33em;
+}
+
+h6,
+.h6 {
+  font-size: 1.07em;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1.color-secondary,
+h2.color-secondary,
+h3.color-secondary,
+h4.color-secondary,
+h5.color-secondary,
+h6.color-secondary,
+.h1.color-secondary,
+.h2.color-secondary,
+.h3.color-secondary,
+.h4.color-secondary,
+.h5.color-secondary,
+.h6.color-secondary,
+p.color-secondary {
+  color: #16a3fe;
+}
+
+h1.color-primary,
+h2.color-primary,
+h3.color-primary,
+h4.color-primary,
+h5.color-primary,
+h6.color-primary,
+.h1.color-primary,
+.h2.color-primary,
+.h3.color-primary,
+.h4.color-primary,
+.h5.color-primary,
+.h6.color-primary,
+p.color-primary {
+  color: #41faa4;
+}
+
+h1.color-alt-primary,
+h2.color-alt-primary,
+h3.color-alt-primary,
+h4.color-alt-primary,
+h5.color-alt-primary,
+h6.color-alt-primary,
+.h1.color-alt-primary,
+.h2.color-alt-primary,
+.h3.color-alt-primary,
+.h4.color-alt-primary,
+.h5.color-alt-primary,
+.h6.color-alt-primary,
+p.color-alt-primary {
+  color: #16a3fe;
+}
+
+p.lead {
+  font-size: 1.27em;
+  line-height: 1.68;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+p span {
+  color: #41faa4;
+}
+
+ul,
+ol {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+.lead {
+  line-height: 1.6;
+}
+
+.relative {
+  position: relative;
+}
+
+.lh-x1 {
+  line-height: 1;
+}
+
+.lh-x2 {
+  line-height: 1.5;
+}
+
+.lh-x3 {
+  line-height: 2;
+}
+
+blockquote {
+  font-size: 1em;
+  line-height: 1.625;
+  margin: 30px 0;
+  border: none;
+  color: #3c3c3c;
+}
+
+blockquote:first-child {
+  margin-top: 0;
+}
+
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
+blockquote p:last-child strong {
+  color: #41faa4;
+}
+
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h4,
+ul + h1,
+ul + h2,
+ul + h3,
+ul + h4,
+ul + h5,
+ul + h4,
+ol + h1,
+ol + h2,
+ol + h3,
+ol + h4,
+ol + h5,
+ol + h4,
+table + h1,
+table + h2,
+table + h3,
+table + h4,
+table + h5,
+table + h4 {
+  margin-top: 35px;
+}
+
+ul + p,
+ul + ul,
+ul + ol,
+ol + ol,
+ol + ul,
+ul + table,
+ol + table {
+  margin-top: 35px;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+a {
+  outline: 0;
+  transition: all 0.5s;
+  color: #41faa4;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+  color: #16a3fe;
+}
