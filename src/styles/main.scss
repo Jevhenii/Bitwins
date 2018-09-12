@@ -1,19 +1,14 @@
-@import "mixins";
 @import "variables";
 @import "general-settings";
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #3c3c3c;
   font-size: 15px;
   line-height: 1.86;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-}
-
-body {
+  color: $white;
   background: #0b0c22;
-  color: #fff;
 }

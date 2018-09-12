@@ -1,17 +1,147 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Bitwins</title>
-  <base href="/">
-
+  <base href="./">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/scripts/google-language-translator/css/style.css">
+  <link rel="stylesheet" href="./assets/scripts/google-language-translator/css/toolbar.css">
+  <style>
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10000;
+    }
+
+    #loader {
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 70px;
+      height: 70px;
+      margin: -35px 0 0 -35px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      border-top-color: #41faa4;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      z-index: 1001;
+    }
+
+    #loader:before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #16a3fe;
+      -webkit-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+    }
+
+    #loader:after {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #16a3fe;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+    }
+
+    .loader-section {
+      position: fixed;
+      height: 51%;
+      width: 100%;
+      left: 0;
+      transition: all .7s ease;
+      background: #2b56f5;
+    }
+
+    .theme-light .loader-section,
+    .loader-section.loader-light {
+      background: #eaf3ff;
+    }
+
+    .io-azure .loader-section {
+      background: #0d40ad;
+    }
+
+    .loader-top {
+      top: 0;
+    }
+
+    .loaded .loader-top {
+      transform: translate(0, -100%);
+    }
+
+    .loader-bottom {
+      bottom: 0;
+    }
+
+    .loaded .loader-bottom {
+      transform: translate(0, 100%);
+    }
+
+    @keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
-<body class="home page-template page-template-page-templates page-template-template-onepage page-template-page-templatestemplate-onepage-php page page-id-607 wpb-js-composer js-comp-ver-5.5.2 vc_responsive io-azure icos-theme-ver-1.0 wordpress-version-4.9.8 "
-data-spy="scroll" data-target="#mainnav" data-offset="80">
-  <app-root></app-root>
+
+<body class="home page-template page-template-page-templates page-template-template-onepage page-template-page-templatestemplate-onepage-php page page-id-607 wpb-js-composer js-comp-ver-5.5.2 vc_responsive io-azure icos-theme-ver-1.0"
+  data-spy="scroll" data-target="#mainnav" data-offset="80">
+  <app-root>
+    <div id="preloader">
+      <span id="loader"></span>
+      <span class="loader-section loader-top"></span>
+      <span class="loader-section loader-bottom"></span>
+    </div>
+  </app-root>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        boxClass: 'wow',      // default
+        animateClass: 'animated', // default
+        offset: 0,          // default
+        mobile: true,       // default
+        live: true        // default
+      }
+    )
+    wow.init();
+  </script>
+  <script src="./assets/scripts/google-language-translator/js/scripts.js"></script>
+  <script>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ar,zh-CN,zh-TW,en,fr,de,iw,hi,is,it,ja,jw,pt,ro,ru,es,sv', autoDisplay: false }, 'google_language_translator'); }</script>
 </body>
+
 </html>

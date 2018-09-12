@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/bitwins",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
